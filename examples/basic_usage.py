@@ -41,13 +41,13 @@ async def main():
         print(f"   Entropy quality: {stats.get('entropy_quality', 'N/A')}")
         
         # Stream random numbers
-        print("\n4. Streaming random numbers (press Ctrl+C to stop)...")
-        count = 0
-        async for number in client.stream_random():
-            print(f"   Stream #{count}: {number}")
-            count += 1
-            if count >= 5:  # Stop after 5 numbers for demo
-                break
+        # print("\n4. Streaming random numbers (press Ctrl+C to stop)...")
+        # count = 0
+        # async for number in client.stream_random():
+        #     print(f"   Stream #{count}: {number}")
+        #     count += 1
+        #     if count >= 5:  # Stop after 5 numbers for demo
+        #         break
         
     except Exception as e:
         print(f"Error: {e}")
