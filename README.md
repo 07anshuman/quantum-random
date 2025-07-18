@@ -1,4 +1,4 @@
-# Quantum Randomness Service
+# Quantum Random
 
 A comprehensive service that provides true quantum random numbers from multiple sources including ANU's Quantum Random Number Generator (QRNG) and configurable custom sources.
 
