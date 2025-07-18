@@ -1,3 +1,0 @@
-[console_scripts]
-qrandom = app.main:main
-quantum-randomness-service = app.main:main
