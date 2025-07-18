@@ -22,9 +22,9 @@ if ! python -c "import fastapi" 2>/dev/null; then
     pip install -r requirements.txt
 fi
 
-echo "✅ Environment ready!"
+echo "Environment ready!"
 echo ""
-echo "🚀 Starting Quantum Randomness Service..."
+echo "Starting Quantum Randomness Service..."
 echo "   Service will be available at: http://localhost:8000"
 echo "   API Documentation: http://localhost:8000/docs"
 echo "   Visualization: http://localhost:8000/visualize"
