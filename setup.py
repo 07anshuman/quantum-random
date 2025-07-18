@@ -19,12 +19,12 @@ def read_requirements():
 setup(
     name="quantum-randomness-service",
     version="1.0.0",
-    author="Quantum Randomness Service",
-    author_email="contact@example.com",
+    author="Anshuman Shukla",
+    author_email="anshuman.contact07@gmail.com",
     description="A service providing true quantum random numbers from ANU QRNG and other sources",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/quantum-randomness-service",
+    url="https://github.com/07anshuman/quantum-randomness-service",
     packages=find_packages(include=["app", "qrandom"]),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -68,8 +68,8 @@ setup(
     },
     keywords="quantum random number generator qrng anu api service",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/quantum-randomness-service/issues",
-        "Source": "https://github.com/yourusername/quantum-randomness-service",
-        "Documentation": "https://github.com/yourusername/quantum-randomness-service#readme",
+        "Bug Reports": "https://github.com/07anshuman/quantum-randomness-service/issues",
+        "Source": "https://github.com/07anshuman/quantum-randomness-service",
+        "Documentation": "https://github.com/07anshuman/quantum-randomness-service#readme",
     },
 ) 
