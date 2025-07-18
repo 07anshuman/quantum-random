@@ -1,8 +1,0 @@
-INFO:     Will watch for changes in these directories: ['/home/anshuman-shukla/qrandom']
-ERROR:    [Errno 98] Address already in use
-🌊 Starting Quantum Randomness Service...
-==================================================
-Service will be available at: http://localhost:8000
-API Documentation: http://localhost:8000/docs
-Visualization: http://localhost:8000/visualize
-==================================================
