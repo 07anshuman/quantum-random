@@ -1,0 +1,17 @@
+include README.md
+include requirements.txt
+include LICENSE
+include *.py
+include app/*.py
+include qrandom/*.py
+include examples/*.py
+include tests/*.py
+include docker-compose.yml
+include Dockerfile
+include run.py
+include demo.py
+include start.sh
+recursive-include app *
+recursive-include qrandom *
+recursive-include examples *
+recursive-include tests * 
